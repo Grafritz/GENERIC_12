@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataMapping>
+  <bigint>Long</bigint>
+  <image>Byte()</image>
+  <binary>Byte[]</binary>
+  <bit>Boolean</bit>
+  <date>DateTime</date>
+  <datetime>DateTime</datetime>
+  <datetime2>DateTime</datetime2>
+  <DATETIMEOFFSET>DateTimeOffset</DATETIMEOFFSET>
+  <decimal>Decimal</decimal>
+  <float>Double</float>
+  <int>Int32</int>
+  <money>Decimal</money>
+  <nchar>String</nchar>
+  <numeric>Decimal</numeric>
+  <nvarchar>String</nvarchar>
+  <rowversion>Byte[]</rowversion>
+  <smallint>Int16</smallint>
+  <smallmoney>Decimal</smallmoney>
+  <time>TimeSpan</time>
+  <tinyint>Byte</tinyint>
+  <varbinary >Byte()</varbinary >
+</DataMapping>

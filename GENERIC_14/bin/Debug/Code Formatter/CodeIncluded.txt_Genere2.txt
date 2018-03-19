@@ -1,0 +1,122 @@
+ ?  <%@ Page Language=""VB"" AutoEventWireup=""false"" CodeFile=""wbfrm_GroupRights.aspx.vb"" Inherits=""wbfrm_GroupRights"" MasterPageFile=""~/MasterPage/DashboardMasterPage.master"" %>
+ ?  
+ ?  <asp:Content ID=""Content1"" ContentPlaceHolderID=""ContentPlaceHolder1"" runat=""server"">
+ ?   
+ ?  	<telerik:RadCodeBlock ID=""RadCodeBlock1"" runat=""server"">
+ ?          <script type=""text/javascript"">
+ ?  
+ ?              function closeWindow() {
+ ?                  window.close();
+ ?              }
+ ?  
+ ?              function CloseAndRefreshListeTypeIdentification() {
+ ?                  GetRadWindow().BrowserWindow.refreshMe();
+ ?                  GetRadWindow().close();
+ ?              }
+ ?  
+ ?              function GetRadWindow() {
+ ?                  var oWindow = null;
+ ?                  if (window.radWindow) oWindow = window.radWindow; //Will work in Moz in all cases, including clasic dialog
+ ?                  else if (window.frameElement.radWindow) oWindow = window.frameElement.radWindow; //IE (and Moz as well)
+ ?  
+ ?                  return oWindow;
+ ?              }
+ ?          </script>
+ ?      </telerik:RadCodeBlock>
+ ?        <telerik:RadStyleSheetManager ID=""RadStyleSheetManager1"" runat=""server"" />
+ ?      <telerik:RadScriptManager ID=""RadScriptManager1"" runat=""server"">
+ ?          <Scripts>
+ ?          </Scripts>
+ ?      </telerik:RadScriptManager>
+ ?  
+ ?      <telerik:RadAjaxLoadingPanel ID=""RadAjaxLoadingPanel1"" runat=""server"" />
+ ?  
+ ?  	<input type=""hidden"" id=""radGridClickedRowIndex"" name=""radGridClickedRowIndex"" />
+ ?      
+ ?  
+ ?      <table style=""width: 100%; height: 100%;"">
+ ?  		<tr valign=""top"">
+ ?  			<td valign=""top"" style=""width: 100%; height: 100%;"">
+ ?  				<asp:TextBox id=""txt_Height"" runat=""server"" BackColor=""White"" ForeColor=""White"" Height=""1px"" Visible=""false"" BorderStyle=""None"" BorderColor=""White"" Width=""1px"">500</asp:TextBox>
+ ?                  <table style=""width: 100%; height: 100%;"">
+ ?  					<tr>
+ ?                          <td valign=""middle"" align=""center"" style=""width: 100%;"" colspan=""2"">
+ ?                              <asp:Label ID=""lbl_Error"" runat=""server"" CssClass=""LabelBold"" ForeColor=""Red"" />
+ ?                          </td>
+ ?                      </tr>
+ ?  					<tr valign=""top"" style=""height: 100%;"">
+ ?  						<td valign=""middle"" align=""right"" style=""width: 100%;"" colspan=""2"">
+ ?  									
+ ?  							<asp:Label id=""lbHeaderTitle"" runat=""server"" CssClass=""LabelBold"" Font-Bold=""True"" Font-Size=""Large"" ForeColor=""Black"">Les T�ches par Groupe.</asp:Label>
+ ?                              <asp:Panel ID=""pnAddUpdate"" runat=""server"">
+ ?  							<table style=""width: 100%; height: 100%;"">
+ ?  								<tr valign=""top"" style=""height: 30px;"">
+ ?  									<td valign=""middle"" align=""right"" style=""width: 45%;"">&nbsp;</td>
+ ?  									<td valign=""middle"" align=""center"" style=""width: 10%;"">&nbsp;</td>
+ ?  									<td valign=""middle"" align=""left"" style=""width: 45%;"">
+ ?  										<asp:Label id=""Label1"" CssClass=""LabelBold"" ForeColor=""Black"" Runat=""server"">Groupes d'Utilisateur</asp:Label>
+ ?  										<telerik:RadComboBox  id=""dplstGroup"" runat=""server"" CssClass=""TextBoxBold"" Width=""95%"" AutoPostBack=""True""></telerik:RadComboBox></td>
+ ?  								</tr>
+ ?  								<tr valign=""top"" style=""height: 100%;"">
+ ?  									<td valign=""top"" align=""right"" style=""width: 45%;"">
+ ?  										<asp:Label id=""Label3"" CssClass=""LabelBold"" ForeColor=""Black"" Runat=""server"">T�che(s) Disponibles</asp:Label>
+ ?  										<telerik:RadListBox id=""LstAvailObjects""  tabIndex=""2"" runat=""server"" CssClass=""TextBoxBold"" BackColor=""#FFFFFF""
+ ?  											ForeColor=""Black"" Height=""200px"" BorderStyle=""solid"" Width=""95%"" BorderWidth=""1"" SelectionMode=""Multiple""></telerik:RadListBox></td>
+ ?  									<td valign=""middle"" align=""center"" style=""width: 10%;"">
+ ?  										<table width=""100%"" border=""0"">
+ ?  											<tr>
+ ?  												<td></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td></td>
+ ?  											</tr>
+ ?  											<tr valign=""middle"">
+ ?  												<td valign=""middle"" align=""center"">
+ ?  													<telerik:RadButton id=""btnSendOne"" runat=""server"" CssClass=""ButtonBold"" Width=""25px"" Text="">""></telerik:RadButton></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td valign=""middle"" align=""center"">
+ ?  													<telerik:RadButton id=""btnSendAll"" runat=""server"" CssClass=""ButtonBold"" Width=""25px"" Text="">>""></telerik:RadButton></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td valign=""middle"" align=""center"">
+ ?  													<telerik:RadButton id=""btnRemoveAll"" runat=""server"" CssClass=""ButtonBold"" Width=""25px"" Text=""<<""></telerik:RadButton></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td></td>
+ ?  											</tr>
+ ?  											<tr>
+ ?  												<td valign=""middle"" align=""center"">
+ ?  													<telerik:RadButton id=""btnRemoveOne"" runat=""server"" CssClass=""ButtonBold"" Width=""25px"" Text=""<""></telerik:RadButton></td>
+ ?  											</tr>
+ ?  										</table>
+ ?  									</td>
+ ?  									<td valign=""top"" align=""left"" style=""width: 45%;"">
+ ?  										<asp:Label id=""Label4"" CssClass=""LabelBold"" ForeColor=""Black"" Runat=""server"">T�che(s) Assign�(s) au Groupe</asp:Label>
+ ?  										<telerik:RadListBox s id=""lstAffectObjects"" style=""text-align:right"" tabIndex=""3"" runat=""server"" CssClass=""TextBoxBold"" BackColor=""#FFFFFF""
+ ?  											ForeColor=""Black"" Height=""200px"" BorderStyle=""solid"" Width=""95%"" BorderWidth=""1"" SelectionMode=""Multiple""></telerik:RadListBox ></td>
+ ?  								</tr>
+ ?  							</table>                            
+ ?                              </asp:Panel>
+ ?  						</td>
+ ?  					</tr>
+ ?  				</table>
+ ?  			</td>
+ ?  		</tr>
+ ?  	</table>
+ ?  </asp:Content>

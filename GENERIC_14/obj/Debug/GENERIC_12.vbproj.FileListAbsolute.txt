@@ -1,0 +1,11 @@
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\bin\Debug\GENERIC_12.exe.config
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\bin\Debug\GENERIC_12.exe
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\bin\Debug\GENERIC_12.pdb
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\bin\Debug\MySql.Data.dll
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\obj\Debug\ResolveAssemblyReference.cache
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\obj\Debug\GENERIC_12.FormGeneric12.resources
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\obj\Debug\GENERIC_12.Resources.resources
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\obj\Debug\GenerateResource.read.1.tlog
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\obj\Debug\GenerateResource.write.1.tlog
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\obj\Debug\GENERIC_12.exe
+C:\Dropbox\Dropbox\DeveloppementProject\GENERIC_12_2013\GENERIC_12\GENERIC_12\obj\Debug\GENERIC_12.pdb

@@ -1,0 +1,5 @@
+ objwriter.writeline("  ") 
+ objwriter.writeline("  ") 
+ objwriter.writeline("          If e.CommandName = RadGrid.ExpandCollapseCommandName And TypeOf e.Item Is GridDataItem Then") 
+ objwriter.writeline("              DirectCast(e.Item, GridDataItem).ChildItem.FindControl(""InnerContainer"").Visible = Not e.Item.Expanded") 
+ objwriter.writeline("          End If") 

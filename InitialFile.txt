@@ -1,0 +1,5 @@
+
+
+        If e.CommandName = RadGrid.ExpandCollapseCommandName And TypeOf e.Item Is GridDataItem Then
+            DirectCast(e.Item, GridDataItem).ChildItem.FindControl("InnerContainer").Visible = Not e.Item.Expanded
+        End If

@@ -1,0 +1,1859 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class FormGeneric12
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormGeneric12))
+        Me.Btn_GenererScript = New System.Windows.Forms.Button()
+        Me.TreeView1 = New System.Windows.Forms.TreeView()
+        Me.TreeView2 = New System.Windows.Forms.TreeView()
+        Me.TabControl_Form = New System.Windows.Forms.TabControl()
+        Me.TabParametre = New System.Windows.Forms.TabPage()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.txt_PathGenerate_ScriptFile = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Btn_FolderBrowserDialog_Script = New System.Windows.Forms.Button()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.cmb_server = New System.Windows.Forms.ComboBox()
+        Me.rcmb_DatabaseName = New System.Windows.Forms.ComboBox()
+        Me.GrpBox_DB = New System.Windows.Forms.GroupBox()
+        Me.rbtn_PostGres = New System.Windows.Forms.RadioButton()
+        Me.rbtn_MySql = New System.Windows.Forms.RadioButton()
+        Me.rbtn_SqlServer = New System.Windows.Forms.RadioButton()
+        Me.rbtn_Oracle = New System.Windows.Forms.RadioButton()
+        Me.Btn_ConnexionServerName = New System.Windows.Forms.Button()
+        Me.txt_DatabaseName = New System.Windows.Forms.TextBox()
+        Me.lbl_Database_port = New System.Windows.Forms.Label()
+        Me.txt_ServerName = New System.Windows.Forms.TextBox()
+        Me.Txt_Login = New System.Windows.Forms.TextBox()
+        Me.Txt_Password = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.lbl_Servername = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Btn_Remove = New System.Windows.Forms.Button()
+        Me.Btn_AddNameSpace = New System.Windows.Forms.Button()
+        Me.txt_NameSpace = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.ListBox_NameSpace = New System.Windows.Forms.ListBox()
+        Me.TabBaseDeDonnees = New System.Windows.Forms.TabPage()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.ddl_PrefixStoredProcedure = New System.Windows.Forms.ComboBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.btnOpenOutput = New System.Windows.Forms.Button()
+        Me.txt_projectName = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txt_LibraryName = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.txt_table = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txt_FkPrefix = New System.Windows.Forms.TextBox()
+        Me.lbl_FkPrefix = New System.Windows.Forms.Label()
+        Me.Btn_GenererParIndex = New System.Windows.Forms.Button()
+        Me.TabInterfaceWEB = New System.Windows.Forms.TabPage()
+        Me.GroupBox14 = New System.Windows.Forms.GroupBox()
+        Me.PictureBox_Formulaire = New System.Windows.Forms.PictureBox()
+        Me.GroupBox13 = New System.Windows.Forms.GroupBox()
+        Me.PictureBox_Template = New System.Windows.Forms.PictureBox()
+        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.RB_Template_Inspinia = New System.Windows.Forms.RadioButton()
+        Me.RB_Template_CleanZone = New System.Windows.Forms.RadioButton()
+        Me.RB_Template_AdminLTE_Master = New System.Windows.Forms.RadioButton()
+        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
+        Me.RB_Formulaire_FlowLayout = New System.Windows.Forms.RadioButton()
+        Me.RB_Formulaire_Tableau = New System.Windows.Forms.RadioButton()
+        Me.TabGroupe = New System.Windows.Forms.TabPage()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnGenerateScriptGroup = New System.Windows.Forms.Button()
+        Me.treeViewGroupe = New System.Windows.Forms.TreeView()
+        Me.btnRefresh = New System.Windows.Forms.Button()
+        Me.dtgGroupe = New System.Windows.Forms.DataGridView()
+        Me.bnt_AddGroupTable = New System.Windows.Forms.Button()
+        Me.tab_EcranProgression = New System.Windows.Forms.TabPage()
+        Me.progressTrue10 = New System.Windows.Forms.ProgressBar()
+        Me.progressTrue9 = New System.Windows.Forms.ProgressBar()
+        Me.progressTrue8 = New System.Windows.Forms.ProgressBar()
+        Me.progressTrue7 = New System.Windows.Forms.ProgressBar()
+        Me.progressTrue6 = New System.Windows.Forms.ProgressBar()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.progressTrue5 = New System.Windows.Forms.ProgressBar()
+        Me.progressTrue4 = New System.Windows.Forms.ProgressBar()
+        Me.progressTrue3 = New System.Windows.Forms.ProgressBar()
+        Me.progressTrue2 = New System.Windows.Forms.ProgressBar()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.progressTrue1 = New System.Windows.Forms.ProgressBar()
+        Me.tabReportGeneration = New System.Windows.Forms.TabPage()
+        Me.txt_AliasMaster = New System.Windows.Forms.TextBox()
+        Me.pnlDetailReportGeneration = New System.Windows.Forms.Panel()
+        Me.pnlParametreDate = New System.Windows.Forms.GroupBox()
+        Me.dtgDateParameter = New System.Windows.Forms.DataGridView()
+        Me.btnDateParameterGroupe = New System.Windows.Forms.Button()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.rdgWhereCondition = New System.Windows.Forms.DataGridView()
+        Me.btnAddCondition = New System.Windows.Forms.Button()
+        Me.btnGenerateReportScript = New System.Windows.Forms.Button()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.treeView_ReportColumn = New System.Windows.Forms.TreeView()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.dtgReportParameters = New System.Windows.Forms.DataGridView()
+        Me.btnAddReportParameter = New System.Windows.Forms.Button()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.txtAliasReportTable = New System.Windows.Forms.TextBox()
+        Me.ddl_OtherReportTable = New System.Windows.Forms.ComboBox()
+        Me.dtgOtherReportTable = New System.Windows.Forms.DataGridView()
+        Me.btnAddNewTable = New System.Windows.Forms.Button()
+        Me.ddl_TypeReport = New System.Windows.Forms.ComboBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.btnValidatePrincipalTable = New System.Windows.Forms.Button()
+        Me.ddl_Parent = New System.Windows.Forms.ComboBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txt_ReportProcName = New System.Windows.Forms.TextBox()
+        Me.lbl_ReportName = New System.Windows.Forms.Label()
+        Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
+        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.progressBar_IMode = New System.Windows.Forms.ProgressBar()
+        Me.lbl_IMode = New System.Windows.Forms.Label()
+        Me.BackgroundWorker2 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorker1second = New System.ComponentModel.BackgroundWorker()
+        Me.bckWorkerForServers = New System.ComponentModel.BackgroundWorker()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.rbtnIMode_No = New System.Windows.Forms.RadioButton()
+        Me.rbtnIMode_Yes = New System.Windows.Forms.RadioButton()
+        Me.btn_Refresh = New System.Windows.Forms.Button()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.FichierToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NouveauProjetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OuvrirProjetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AideToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AProposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BackgroundWorkerTrue1 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorkerTrue2 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorkerTrue3 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorkerTrue4 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorkerTrue5 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorkerTrue6 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorkerTrue7 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorkerTrue8 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorkerTrue9 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorkerTrue10 = New System.ComponentModel.BackgroundWorker()
+        Me.Generic_dbDataSet = New GENERIC_14.Generic_dbDataSet()
+        Me.GenericdbDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.CB_ActionStoreProcedure = New System.Windows.Forms.ComboBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.TabControl_Form.SuspendLayout()
+        Me.TabParametre.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.GrpBox_DB.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.TabBaseDeDonnees.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.TabInterfaceWEB.SuspendLayout()
+        Me.GroupBox14.SuspendLayout()
+        CType(Me.PictureBox_Formulaire, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox13.SuspendLayout()
+        CType(Me.PictureBox_Template, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox11.SuspendLayout()
+        Me.GroupBox12.SuspendLayout()
+        Me.TabGroupe.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.dtgGroupe, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tab_EcranProgression.SuspendLayout()
+        Me.tabReportGeneration.SuspendLayout()
+        Me.pnlDetailReportGeneration.SuspendLayout()
+        Me.pnlParametreDate.SuspendLayout()
+        CType(Me.dtgDateParameter, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox10.SuspendLayout()
+        CType(Me.rdgWhereCondition, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox9.SuspendLayout()
+        Me.GroupBox8.SuspendLayout()
+        CType(Me.dtgReportParameters, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox7.SuspendLayout()
+        CType(Me.dtgOtherReportTable, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox6.SuspendLayout()
+        Me.MenuStrip1.SuspendLayout()
+        CType(Me.Generic_dbDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GenericdbDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'Btn_GenererScript
+        '
+        Me.Btn_GenererScript.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Btn_GenererScript.Enabled = False
+        Me.Btn_GenererScript.Location = New System.Drawing.Point(8, 455)
+        Me.Btn_GenererScript.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_GenererScript.Name = "Btn_GenererScript"
+        Me.Btn_GenererScript.Size = New System.Drawing.Size(199, 43)
+        Me.Btn_GenererScript.TabIndex = 0
+        Me.Btn_GenererScript.Text = "Générer Tous les Scripts"
+        Me.Btn_GenererScript.UseVisualStyleBackColor = True
+        '
+        'TreeView1
+        '
+        Me.TreeView1.CheckBoxes = True
+        Me.TreeView1.FullRowSelect = True
+        Me.TreeView1.Location = New System.Drawing.Point(8, 57)
+        Me.TreeView1.Margin = New System.Windows.Forms.Padding(4)
+        Me.TreeView1.Name = "TreeView1"
+        Me.TreeView1.Size = New System.Drawing.Size(447, 329)
+        Me.TreeView1.TabIndex = 3
+        '
+        'TreeView2
+        '
+        Me.TreeView2.CheckBoxes = True
+        Me.TreeView2.Location = New System.Drawing.Point(476, 57)
+        Me.TreeView2.Margin = New System.Windows.Forms.Padding(4)
+        Me.TreeView2.Name = "TreeView2"
+        Me.TreeView2.Size = New System.Drawing.Size(473, 329)
+        Me.TreeView2.TabIndex = 4
+        '
+        'TabControl_Form
+        '
+        Me.TabControl_Form.Controls.Add(Me.TabParametre)
+        Me.TabControl_Form.Controls.Add(Me.TabBaseDeDonnees)
+        Me.TabControl_Form.Controls.Add(Me.TabInterfaceWEB)
+        Me.TabControl_Form.Controls.Add(Me.TabGroupe)
+        Me.TabControl_Form.Controls.Add(Me.tab_EcranProgression)
+        Me.TabControl_Form.Controls.Add(Me.tabReportGeneration)
+        Me.TabControl_Form.Location = New System.Drawing.Point(11, 111)
+        Me.TabControl_Form.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabControl_Form.Name = "TabControl_Form"
+        Me.TabControl_Form.SelectedIndex = 0
+        Me.TabControl_Form.Size = New System.Drawing.Size(1047, 629)
+        Me.TabControl_Form.TabIndex = 10
+        '
+        'TabParametre
+        '
+        Me.TabParametre.Controls.Add(Me.GroupBox5)
+        Me.TabParametre.Controls.Add(Me.GroupBox4)
+        Me.TabParametre.Controls.Add(Me.GroupBox3)
+        Me.TabParametre.Location = New System.Drawing.Point(4, 25)
+        Me.TabParametre.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabParametre.Name = "TabParametre"
+        Me.TabParametre.Padding = New System.Windows.Forms.Padding(4)
+        Me.TabParametre.Size = New System.Drawing.Size(1039, 600)
+        Me.TabParametre.TabIndex = 1
+        Me.TabParametre.Text = "Paramètres"
+        Me.TabParametre.UseVisualStyleBackColor = True
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.txt_PathGenerate_ScriptFile)
+        Me.GroupBox5.Controls.Add(Me.Label6)
+        Me.GroupBox5.Controls.Add(Me.Btn_FolderBrowserDialog_Script)
+        Me.GroupBox5.Location = New System.Drawing.Point(8, 288)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox5.Size = New System.Drawing.Size(983, 84)
+        Me.GroupBox5.TabIndex = 2
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Path to Generate Script SQL and Class"
+        '
+        'txt_PathGenerate_ScriptFile
+        '
+        Me.txt_PathGenerate_ScriptFile.Location = New System.Drawing.Point(47, 39)
+        Me.txt_PathGenerate_ScriptFile.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_PathGenerate_ScriptFile.Name = "txt_PathGenerate_ScriptFile"
+        Me.txt_PathGenerate_ScriptFile.Size = New System.Drawing.Size(656, 22)
+        Me.txt_PathGenerate_ScriptFile.TabIndex = 17
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(8, 20)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(98, 17)
+        Me.Label6.TabIndex = 16
+        Me.Label6.Text = "Path Script :"
+        '
+        'Btn_FolderBrowserDialog_Script
+        '
+        Me.Btn_FolderBrowserDialog_Script.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Btn_FolderBrowserDialog_Script.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Btn_FolderBrowserDialog_Script.Image = Global.GENERIC_14.My.Resources.Resources.rep
+        Me.Btn_FolderBrowserDialog_Script.Location = New System.Drawing.Point(12, 38)
+        Me.Btn_FolderBrowserDialog_Script.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_FolderBrowserDialog_Script.Name = "Btn_FolderBrowserDialog_Script"
+        Me.Btn_FolderBrowserDialog_Script.Size = New System.Drawing.Size(35, 28)
+        Me.Btn_FolderBrowserDialog_Script.TabIndex = 8
+        Me.Btn_FolderBrowserDialog_Script.UseVisualStyleBackColor = True
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox4.Controls.Add(Me.cmb_server)
+        Me.GroupBox4.Controls.Add(Me.rcmb_DatabaseName)
+        Me.GroupBox4.Controls.Add(Me.GrpBox_DB)
+        Me.GroupBox4.Controls.Add(Me.Btn_ConnexionServerName)
+        Me.GroupBox4.Controls.Add(Me.txt_DatabaseName)
+        Me.GroupBox4.Controls.Add(Me.lbl_Database_port)
+        Me.GroupBox4.Controls.Add(Me.txt_ServerName)
+        Me.GroupBox4.Controls.Add(Me.Txt_Login)
+        Me.GroupBox4.Controls.Add(Me.Txt_Password)
+        Me.GroupBox4.Controls.Add(Me.Label5)
+        Me.GroupBox4.Controls.Add(Me.Label4)
+        Me.GroupBox4.Controls.Add(Me.lbl_Servername)
+        Me.GroupBox4.Location = New System.Drawing.Point(503, 9)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox4.Size = New System.Drawing.Size(484, 272)
+        Me.GroupBox4.TabIndex = 1
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Paramètres Connexion Base de donnees"
+        '
+        'cmb_server
+        '
+        Me.cmb_server.FormattingEnabled = True
+        Me.cmb_server.Location = New System.Drawing.Point(117, 74)
+        Me.cmb_server.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmb_server.Name = "cmb_server"
+        Me.cmb_server.Size = New System.Drawing.Size(341, 24)
+        Me.cmb_server.TabIndex = 16
+        '
+        'rcmb_DatabaseName
+        '
+        Me.rcmb_DatabaseName.FormattingEnabled = True
+        Me.rcmb_DatabaseName.Location = New System.Drawing.Point(117, 178)
+        Me.rcmb_DatabaseName.Margin = New System.Windows.Forms.Padding(4)
+        Me.rcmb_DatabaseName.Name = "rcmb_DatabaseName"
+        Me.rcmb_DatabaseName.Size = New System.Drawing.Size(341, 24)
+        Me.rcmb_DatabaseName.TabIndex = 16
+        '
+        'GrpBox_DB
+        '
+        Me.GrpBox_DB.Controls.Add(Me.rbtn_PostGres)
+        Me.GrpBox_DB.Controls.Add(Me.rbtn_MySql)
+        Me.GrpBox_DB.Controls.Add(Me.rbtn_SqlServer)
+        Me.GrpBox_DB.Controls.Add(Me.rbtn_Oracle)
+        Me.GrpBox_DB.Location = New System.Drawing.Point(8, 22)
+        Me.GrpBox_DB.Margin = New System.Windows.Forms.Padding(4)
+        Me.GrpBox_DB.Name = "GrpBox_DB"
+        Me.GrpBox_DB.Padding = New System.Windows.Forms.Padding(4)
+        Me.GrpBox_DB.Size = New System.Drawing.Size(452, 44)
+        Me.GrpBox_DB.TabIndex = 13
+        Me.GrpBox_DB.TabStop = False
+        '
+        'rbtn_PostGres
+        '
+        Me.rbtn_PostGres.AutoSize = True
+        Me.rbtn_PostGres.Location = New System.Drawing.Point(356, 16)
+        Me.rbtn_PostGres.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbtn_PostGres.Name = "rbtn_PostGres"
+        Me.rbtn_PostGres.Size = New System.Drawing.Size(85, 21)
+        Me.rbtn_PostGres.TabIndex = 3
+        Me.rbtn_PostGres.Text = "Postgres"
+        Me.rbtn_PostGres.UseVisualStyleBackColor = True
+        '
+        'rbtn_MySql
+        '
+        Me.rbtn_MySql.AutoSize = True
+        Me.rbtn_MySql.Location = New System.Drawing.Point(236, 16)
+        Me.rbtn_MySql.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbtn_MySql.Name = "rbtn_MySql"
+        Me.rbtn_MySql.Size = New System.Drawing.Size(75, 21)
+        Me.rbtn_MySql.TabIndex = 2
+        Me.rbtn_MySql.Text = "MySQL"
+        Me.rbtn_MySql.UseVisualStyleBackColor = True
+        '
+        'rbtn_SqlServer
+        '
+        Me.rbtn_SqlServer.AutoSize = True
+        Me.rbtn_SqlServer.Checked = True
+        Me.rbtn_SqlServer.Location = New System.Drawing.Point(109, 16)
+        Me.rbtn_SqlServer.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbtn_SqlServer.Name = "rbtn_SqlServer"
+        Me.rbtn_SqlServer.Size = New System.Drawing.Size(99, 21)
+        Me.rbtn_SqlServer.TabIndex = 1
+        Me.rbtn_SqlServer.TabStop = True
+        Me.rbtn_SqlServer.Text = "SQLServer"
+        Me.rbtn_SqlServer.UseVisualStyleBackColor = True
+        '
+        'rbtn_Oracle
+        '
+        Me.rbtn_Oracle.AutoSize = True
+        Me.rbtn_Oracle.Location = New System.Drawing.Point(8, 16)
+        Me.rbtn_Oracle.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbtn_Oracle.Name = "rbtn_Oracle"
+        Me.rbtn_Oracle.Size = New System.Drawing.Size(71, 21)
+        Me.rbtn_Oracle.TabIndex = 0
+        Me.rbtn_Oracle.Text = "Oracle"
+        Me.rbtn_Oracle.UseVisualStyleBackColor = True
+        '
+        'Btn_ConnexionServerName
+        '
+        Me.Btn_ConnexionServerName.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Btn_ConnexionServerName.Enabled = False
+        Me.Btn_ConnexionServerName.Location = New System.Drawing.Point(116, 220)
+        Me.Btn_ConnexionServerName.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_ConnexionServerName.Name = "Btn_ConnexionServerName"
+        Me.Btn_ConnexionServerName.Size = New System.Drawing.Size(139, 36)
+        Me.Btn_ConnexionServerName.TabIndex = 4
+        Me.Btn_ConnexionServerName.Text = "Connexion"
+        Me.Btn_ConnexionServerName.UseVisualStyleBackColor = True
+        '
+        'txt_DatabaseName
+        '
+        Me.txt_DatabaseName.Location = New System.Drawing.Point(263, 226)
+        Me.txt_DatabaseName.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_DatabaseName.Name = "txt_DatabaseName"
+        Me.txt_DatabaseName.Size = New System.Drawing.Size(25, 22)
+        Me.txt_DatabaseName.TabIndex = 1
+        Me.txt_DatabaseName.Visible = False
+        '
+        'lbl_Database_port
+        '
+        Me.lbl_Database_port.AutoSize = True
+        Me.lbl_Database_port.Location = New System.Drawing.Point(15, 182)
+        Me.lbl_Database_port.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_Database_port.Name = "lbl_Database_port"
+        Me.lbl_Database_port.Size = New System.Drawing.Size(74, 17)
+        Me.lbl_Database_port.TabIndex = 7
+        Me.lbl_Database_port.Text = "DataBase:"
+        '
+        'txt_ServerName
+        '
+        Me.txt_ServerName.Location = New System.Drawing.Point(297, 226)
+        Me.txt_ServerName.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_ServerName.Name = "txt_ServerName"
+        Me.txt_ServerName.Size = New System.Drawing.Size(25, 22)
+        Me.txt_ServerName.TabIndex = 0
+        Me.txt_ServerName.Visible = False
+        '
+        'Txt_Login
+        '
+        Me.Txt_Login.Location = New System.Drawing.Point(116, 106)
+        Me.Txt_Login.Margin = New System.Windows.Forms.Padding(4)
+        Me.Txt_Login.Name = "Txt_Login"
+        Me.Txt_Login.Size = New System.Drawing.Size(343, 22)
+        Me.Txt_Login.TabIndex = 2
+        '
+        'Txt_Password
+        '
+        Me.Txt_Password.Location = New System.Drawing.Point(116, 138)
+        Me.Txt_Password.Margin = New System.Windows.Forms.Padding(4)
+        Me.Txt_Password.Name = "Txt_Password"
+        Me.Txt_Password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.Txt_Password.Size = New System.Drawing.Size(343, 22)
+        Me.Txt_Password.TabIndex = 3
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(15, 146)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(73, 17)
+        Me.Label5.TabIndex = 10
+        Me.Label5.Text = "Password:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(15, 114)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(47, 17)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "Login:"
+        '
+        'lbl_Servername
+        '
+        Me.lbl_Servername.AutoSize = True
+        Me.lbl_Servername.Location = New System.Drawing.Point(13, 78)
+        Me.lbl_Servername.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_Servername.Name = "lbl_Servername"
+        Me.lbl_Servername.Size = New System.Drawing.Size(95, 17)
+        Me.lbl_Servername.TabIndex = 5
+        Me.lbl_Servername.Text = "Server Name:"
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.GroupBox3.Controls.Add(Me.Btn_Remove)
+        Me.GroupBox3.Controls.Add(Me.Btn_AddNameSpace)
+        Me.GroupBox3.Controls.Add(Me.txt_NameSpace)
+        Me.GroupBox3.Controls.Add(Me.Label3)
+        Me.GroupBox3.Controls.Add(Me.ListBox_NameSpace)
+        Me.GroupBox3.Location = New System.Drawing.Point(9, 9)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox3.Size = New System.Drawing.Size(485, 272)
+        Me.GroupBox3.TabIndex = 0
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Import NameSpace"
+        '
+        'Btn_Remove
+        '
+        Me.Btn_Remove.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Btn_Remove.Enabled = False
+        Me.Btn_Remove.Location = New System.Drawing.Point(7, 188)
+        Me.Btn_Remove.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_Remove.Name = "Btn_Remove"
+        Me.Btn_Remove.Size = New System.Drawing.Size(77, 30)
+        Me.Btn_Remove.TabIndex = 6
+        Me.Btn_Remove.Text = "Remove"
+        Me.Btn_Remove.UseVisualStyleBackColor = True
+        '
+        'Btn_AddNameSpace
+        '
+        Me.Btn_AddNameSpace.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Btn_AddNameSpace.Enabled = False
+        Me.Btn_AddNameSpace.Location = New System.Drawing.Point(424, 43)
+        Me.Btn_AddNameSpace.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_AddNameSpace.Name = "Btn_AddNameSpace"
+        Me.Btn_AddNameSpace.Size = New System.Drawing.Size(53, 30)
+        Me.Btn_AddNameSpace.TabIndex = 6
+        Me.Btn_AddNameSpace.Text = "Add"
+        Me.Btn_AddNameSpace.UseVisualStyleBackColor = True
+        '
+        'txt_NameSpace
+        '
+        Me.txt_NameSpace.Location = New System.Drawing.Point(135, 47)
+        Me.txt_NameSpace.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_NameSpace.Name = "txt_NameSpace"
+        Me.txt_NameSpace.Size = New System.Drawing.Size(280, 22)
+        Me.txt_NameSpace.TabIndex = 5
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(7, 50)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(133, 17)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "Library Name         :"
+        '
+        'ListBox_NameSpace
+        '
+        Me.ListBox_NameSpace.FormattingEnabled = True
+        Me.ListBox_NameSpace.ItemHeight = 16
+        Me.ListBox_NameSpace.Items.AddRange(New Object() {"Imports Microsoft", "Imports System.Data", "Imports System.Collections.Generic", "Imports BRAIN_DEVLOPMENT", "Imports BRAIN_DEVLOPMENT.DataAccessLayer"})
+        Me.ListBox_NameSpace.Location = New System.Drawing.Point(8, 80)
+        Me.ListBox_NameSpace.Margin = New System.Windows.Forms.Padding(4)
+        Me.ListBox_NameSpace.Name = "ListBox_NameSpace"
+        Me.ListBox_NameSpace.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
+        Me.ListBox_NameSpace.Size = New System.Drawing.Size(468, 100)
+        Me.ListBox_NameSpace.TabIndex = 7
+        '
+        'TabBaseDeDonnees
+        '
+        Me.TabBaseDeDonnees.Controls.Add(Me.GroupBox2)
+        Me.TabBaseDeDonnees.Location = New System.Drawing.Point(4, 25)
+        Me.TabBaseDeDonnees.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabBaseDeDonnees.Name = "TabBaseDeDonnees"
+        Me.TabBaseDeDonnees.Padding = New System.Windows.Forms.Padding(4)
+        Me.TabBaseDeDonnees.Size = New System.Drawing.Size(1039, 600)
+        Me.TabBaseDeDonnees.TabIndex = 0
+        Me.TabBaseDeDonnees.Text = "Base de Données"
+        Me.TabBaseDeDonnees.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.CB_ActionStoreProcedure)
+        Me.GroupBox2.Controls.Add(Me.Label21)
+        Me.GroupBox2.Controls.Add(Me.ddl_PrefixStoredProcedure)
+        Me.GroupBox2.Controls.Add(Me.Label10)
+        Me.GroupBox2.Controls.Add(Me.btnOpenOutput)
+        Me.GroupBox2.Controls.Add(Me.txt_projectName)
+        Me.GroupBox2.Controls.Add(Me.Label1)
+        Me.GroupBox2.Controls.Add(Me.txt_LibraryName)
+        Me.GroupBox2.Controls.Add(Me.Label7)
+        Me.GroupBox2.Controls.Add(Me.txt_table)
+        Me.GroupBox2.Controls.Add(Me.Label2)
+        Me.GroupBox2.Controls.Add(Me.txt_FkPrefix)
+        Me.GroupBox2.Controls.Add(Me.lbl_FkPrefix)
+        Me.GroupBox2.Controls.Add(Me.Btn_GenererParIndex)
+        Me.GroupBox2.Controls.Add(Me.TreeView1)
+        Me.GroupBox2.Controls.Add(Me.TreeView2)
+        Me.GroupBox2.Controls.Add(Me.Btn_GenererScript)
+        Me.GroupBox2.Location = New System.Drawing.Point(8, 7)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Size = New System.Drawing.Size(972, 551)
+        Me.GroupBox2.TabIndex = 11
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Liste des tables de la base de données"
+        '
+        'ddl_PrefixStoredProcedure
+        '
+        Me.ddl_PrefixStoredProcedure.FormattingEnabled = True
+        Me.ddl_PrefixStoredProcedure.Location = New System.Drawing.Point(725, 23)
+        Me.ddl_PrefixStoredProcedure.Margin = New System.Windows.Forms.Padding(4)
+        Me.ddl_PrefixStoredProcedure.Name = "ddl_PrefixStoredProcedure"
+        Me.ddl_PrefixStoredProcedure.Size = New System.Drawing.Size(224, 24)
+        Me.ddl_PrefixStoredProcedure.TabIndex = 19
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(662, 28)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(51, 17)
+        Me.Label10.TabIndex = 18
+        Me.Label10.Text = "Prefix :"
+        '
+        'btnOpenOutput
+        '
+        Me.btnOpenOutput.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnOpenOutput.Location = New System.Drawing.Point(8, 505)
+        Me.btnOpenOutput.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnOpenOutput.Name = "btnOpenOutput"
+        Me.btnOpenOutput.Size = New System.Drawing.Size(199, 43)
+        Me.btnOpenOutput.TabIndex = 17
+        Me.btnOpenOutput.Text = "Ouvrir répertoire de sortie"
+        Me.btnOpenOutput.UseVisualStyleBackColor = True
+        '
+        'txt_projectName
+        '
+        Me.txt_projectName.Location = New System.Drawing.Point(611, 423)
+        Me.txt_projectName.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_projectName.Name = "txt_projectName"
+        Me.txt_projectName.Size = New System.Drawing.Size(280, 22)
+        Me.txt_projectName.TabIndex = 16
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(472, 430)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(94, 17)
+        Me.Label1.TabIndex = 15
+        Me.Label1.Text = "Java Project :"
+        '
+        'txt_LibraryName
+        '
+        Me.txt_LibraryName.Location = New System.Drawing.Point(611, 394)
+        Me.txt_LibraryName.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_LibraryName.Name = "txt_LibraryName"
+        Me.txt_LibraryName.Size = New System.Drawing.Size(280, 22)
+        Me.txt_LibraryName.TabIndex = 14
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(468, 398)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(101, 17)
+        Me.Label7.TabIndex = 13
+        Me.Label7.Text = "Library Name :"
+        '
+        'txt_table
+        '
+        Me.txt_table.Location = New System.Drawing.Point(147, 426)
+        Me.txt_table.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_table.Name = "txt_table"
+        Me.txt_table.Size = New System.Drawing.Size(280, 22)
+        Me.txt_table.TabIndex = 12
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(8, 430)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(91, 17)
+        Me.Label2.TabIndex = 11
+        Me.Label2.Text = "Table Prefix :"
+        '
+        'txt_FkPrefix
+        '
+        Me.txt_FkPrefix.Location = New System.Drawing.Point(147, 394)
+        Me.txt_FkPrefix.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_FkPrefix.Name = "txt_FkPrefix"
+        Me.txt_FkPrefix.Size = New System.Drawing.Size(280, 22)
+        Me.txt_FkPrefix.TabIndex = 10
+        Me.txt_FkPrefix.Text = "ID_"
+        '
+        'lbl_FkPrefix
+        '
+        Me.lbl_FkPrefix.AutoSize = True
+        Me.lbl_FkPrefix.Location = New System.Drawing.Point(8, 399)
+        Me.lbl_FkPrefix.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_FkPrefix.Name = "lbl_FkPrefix"
+        Me.lbl_FkPrefix.Size = New System.Drawing.Size(131, 17)
+        Me.lbl_FkPrefix.TabIndex = 9
+        Me.lbl_FkPrefix.Text = "Foreign Key Prefix :"
+        '
+        'Btn_GenererParIndex
+        '
+        Me.Btn_GenererParIndex.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Btn_GenererParIndex.Location = New System.Drawing.Point(468, 455)
+        Me.Btn_GenererParIndex.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_GenererParIndex.Name = "Btn_GenererParIndex"
+        Me.Btn_GenererParIndex.Size = New System.Drawing.Size(259, 43)
+        Me.Btn_GenererParIndex.TabIndex = 5
+        Me.Btn_GenererParIndex.Text = "Générer Tous les Scripts / index"
+        Me.Btn_GenererParIndex.UseVisualStyleBackColor = True
+        '
+        'TabInterfaceWEB
+        '
+        Me.TabInterfaceWEB.Controls.Add(Me.GroupBox14)
+        Me.TabInterfaceWEB.Controls.Add(Me.GroupBox13)
+        Me.TabInterfaceWEB.Controls.Add(Me.GroupBox11)
+        Me.TabInterfaceWEB.Controls.Add(Me.GroupBox12)
+        Me.TabInterfaceWEB.Location = New System.Drawing.Point(4, 25)
+        Me.TabInterfaceWEB.Name = "TabInterfaceWEB"
+        Me.TabInterfaceWEB.Size = New System.Drawing.Size(1039, 600)
+        Me.TabInterfaceWEB.TabIndex = 5
+        Me.TabInterfaceWEB.Text = "Interface WEB"
+        Me.TabInterfaceWEB.UseVisualStyleBackColor = True
+        '
+        'GroupBox14
+        '
+        Me.GroupBox14.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox14.Controls.Add(Me.PictureBox_Formulaire)
+        Me.GroupBox14.Location = New System.Drawing.Point(10, 289)
+        Me.GroupBox14.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox14.Name = "GroupBox14"
+        Me.GroupBox14.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox14.Size = New System.Drawing.Size(507, 298)
+        Me.GroupBox14.TabIndex = 15
+        Me.GroupBox14.TabStop = False
+        Me.GroupBox14.Text = "Appercu Formulaire"
+        '
+        'PictureBox_Formulaire
+        '
+        Me.PictureBox_Formulaire.Image = Global.GENERIC_14.My.Resources.Resources.CleanZone_Form_fw
+        Me.PictureBox_Formulaire.Location = New System.Drawing.Point(9, 22)
+        Me.PictureBox_Formulaire.Name = "PictureBox_Formulaire"
+        Me.PictureBox_Formulaire.Size = New System.Drawing.Size(487, 268)
+        Me.PictureBox_Formulaire.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox_Formulaire.TabIndex = 0
+        Me.PictureBox_Formulaire.TabStop = False
+        '
+        'GroupBox13
+        '
+        Me.GroupBox13.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox13.Controls.Add(Me.PictureBox_Template)
+        Me.GroupBox13.Location = New System.Drawing.Point(524, 14)
+        Me.GroupBox13.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox13.Name = "GroupBox13"
+        Me.GroupBox13.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox13.Size = New System.Drawing.Size(507, 298)
+        Me.GroupBox13.TabIndex = 14
+        Me.GroupBox13.TabStop = False
+        Me.GroupBox13.Text = "Appercu Template"
+        '
+        'PictureBox_Template
+        '
+        Me.PictureBox_Template.Image = Global.GENERIC_14.My.Resources.Resources.AdminLTE_Master_fw
+        Me.PictureBox_Template.Location = New System.Drawing.Point(9, 22)
+        Me.PictureBox_Template.Name = "PictureBox_Template"
+        Me.PictureBox_Template.Size = New System.Drawing.Size(487, 268)
+        Me.PictureBox_Template.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox_Template.TabIndex = 0
+        Me.PictureBox_Template.TabStop = False
+        '
+        'GroupBox11
+        '
+        Me.GroupBox11.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox11.Controls.Add(Me.RB_Template_Inspinia)
+        Me.GroupBox11.Controls.Add(Me.RB_Template_CleanZone)
+        Me.GroupBox11.Controls.Add(Me.RB_Template_AdminLTE_Master)
+        Me.GroupBox11.Location = New System.Drawing.Point(155, 83)
+        Me.GroupBox11.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox11.Name = "GroupBox11"
+        Me.GroupBox11.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox11.Size = New System.Drawing.Size(220, 140)
+        Me.GroupBox11.TabIndex = 2
+        Me.GroupBox11.TabStop = False
+        Me.GroupBox11.Text = "Interface WEB - Template"
+        '
+        'RB_Template_Inspinia
+        '
+        Me.RB_Template_Inspinia.AutoSize = True
+        Me.RB_Template_Inspinia.Location = New System.Drawing.Point(8, 92)
+        Me.RB_Template_Inspinia.Margin = New System.Windows.Forms.Padding(4)
+        Me.RB_Template_Inspinia.Name = "RB_Template_Inspinia"
+        Me.RB_Template_Inspinia.Size = New System.Drawing.Size(77, 21)
+        Me.RB_Template_Inspinia.TabIndex = 4
+        Me.RB_Template_Inspinia.Text = "Inspinia"
+        Me.RB_Template_Inspinia.UseVisualStyleBackColor = True
+        '
+        'RB_Template_CleanZone
+        '
+        Me.RB_Template_CleanZone.AutoSize = True
+        Me.RB_Template_CleanZone.Checked = True
+        Me.RB_Template_CleanZone.Location = New System.Drawing.Point(8, 63)
+        Me.RB_Template_CleanZone.Margin = New System.Windows.Forms.Padding(4)
+        Me.RB_Template_CleanZone.Name = "RB_Template_CleanZone"
+        Me.RB_Template_CleanZone.Size = New System.Drawing.Size(102, 21)
+        Me.RB_Template_CleanZone.TabIndex = 3
+        Me.RB_Template_CleanZone.TabStop = True
+        Me.RB_Template_CleanZone.Text = "Clean Zone"
+        Me.RB_Template_CleanZone.UseVisualStyleBackColor = True
+        '
+        'RB_Template_AdminLTE_Master
+        '
+        Me.RB_Template_AdminLTE_Master.AutoSize = True
+        Me.RB_Template_AdminLTE_Master.Location = New System.Drawing.Point(8, 34)
+        Me.RB_Template_AdminLTE_Master.Margin = New System.Windows.Forms.Padding(4)
+        Me.RB_Template_AdminLTE_Master.Name = "RB_Template_AdminLTE_Master"
+        Me.RB_Template_AdminLTE_Master.Size = New System.Drawing.Size(142, 21)
+        Me.RB_Template_AdminLTE_Master.TabIndex = 2
+        Me.RB_Template_AdminLTE_Master.Text = "AdminLTE-master"
+        Me.RB_Template_AdminLTE_Master.UseVisualStyleBackColor = True
+        '
+        'GroupBox12
+        '
+        Me.GroupBox12.Controls.Add(Me.RB_Formulaire_FlowLayout)
+        Me.GroupBox12.Controls.Add(Me.RB_Formulaire_Tableau)
+        Me.GroupBox12.Location = New System.Drawing.Point(661, 426)
+        Me.GroupBox12.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox12.Name = "GroupBox12"
+        Me.GroupBox12.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox12.Size = New System.Drawing.Size(220, 56)
+        Me.GroupBox12.TabIndex = 13
+        Me.GroupBox12.TabStop = False
+        Me.GroupBox12.Text = "Type de formulaire"
+        '
+        'RB_Formulaire_FlowLayout
+        '
+        Me.RB_Formulaire_FlowLayout.AutoSize = True
+        Me.RB_Formulaire_FlowLayout.Location = New System.Drawing.Point(109, 23)
+        Me.RB_Formulaire_FlowLayout.Margin = New System.Windows.Forms.Padding(4)
+        Me.RB_Formulaire_FlowLayout.Name = "RB_Formulaire_FlowLayout"
+        Me.RB_Formulaire_FlowLayout.Size = New System.Drawing.Size(100, 21)
+        Me.RB_Formulaire_FlowLayout.TabIndex = 1
+        Me.RB_Formulaire_FlowLayout.Text = "FlowLayout"
+        Me.RB_Formulaire_FlowLayout.UseVisualStyleBackColor = True
+        '
+        'RB_Formulaire_Tableau
+        '
+        Me.RB_Formulaire_Tableau.AutoSize = True
+        Me.RB_Formulaire_Tableau.Checked = True
+        Me.RB_Formulaire_Tableau.Location = New System.Drawing.Point(8, 23)
+        Me.RB_Formulaire_Tableau.Margin = New System.Windows.Forms.Padding(4)
+        Me.RB_Formulaire_Tableau.Name = "RB_Formulaire_Tableau"
+        Me.RB_Formulaire_Tableau.Size = New System.Drawing.Size(81, 21)
+        Me.RB_Formulaire_Tableau.TabIndex = 0
+        Me.RB_Formulaire_Tableau.TabStop = True
+        Me.RB_Formulaire_Tableau.Text = "Tableau"
+        Me.RB_Formulaire_Tableau.UseVisualStyleBackColor = True
+        '
+        'TabGroupe
+        '
+        Me.TabGroupe.Controls.Add(Me.GroupBox1)
+        Me.TabGroupe.Location = New System.Drawing.Point(4, 25)
+        Me.TabGroupe.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabGroupe.Name = "TabGroupe"
+        Me.TabGroupe.Padding = New System.Windows.Forms.Padding(4)
+        Me.TabGroupe.Size = New System.Drawing.Size(1039, 600)
+        Me.TabGroupe.TabIndex = 2
+        Me.TabGroupe.Text = "Groupe"
+        Me.TabGroupe.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.btnGenerateScriptGroup)
+        Me.GroupBox1.Controls.Add(Me.treeViewGroupe)
+        Me.GroupBox1.Controls.Add(Me.btnRefresh)
+        Me.GroupBox1.Controls.Add(Me.dtgGroupe)
+        Me.GroupBox1.Controls.Add(Me.bnt_AddGroupTable)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 9)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Size = New System.Drawing.Size(972, 497)
+        Me.GroupBox1.TabIndex = 12
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Liste des tables de la base de données"
+        '
+        'btnGenerateScriptGroup
+        '
+        Me.btnGenerateScriptGroup.Location = New System.Drawing.Point(811, 444)
+        Me.btnGenerateScriptGroup.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnGenerateScriptGroup.Name = "btnGenerateScriptGroup"
+        Me.btnGenerateScriptGroup.Size = New System.Drawing.Size(127, 43)
+        Me.btnGenerateScriptGroup.TabIndex = 9
+        Me.btnGenerateScriptGroup.Text = "Generer"
+        Me.btnGenerateScriptGroup.UseVisualStyleBackColor = True
+        '
+        'treeViewGroupe
+        '
+        Me.treeViewGroupe.CheckBoxes = True
+        Me.treeViewGroupe.Location = New System.Drawing.Point(509, 79)
+        Me.treeViewGroupe.Margin = New System.Windows.Forms.Padding(4)
+        Me.treeViewGroupe.Name = "treeViewGroupe"
+        Me.treeViewGroupe.Size = New System.Drawing.Size(453, 357)
+        Me.treeViewGroupe.TabIndex = 8
+        '
+        'btnRefresh
+        '
+        Me.btnRefresh.Location = New System.Drawing.Point(176, 28)
+        Me.btnRefresh.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnRefresh.Name = "btnRefresh"
+        Me.btnRefresh.Size = New System.Drawing.Size(136, 43)
+        Me.btnRefresh.TabIndex = 7
+        Me.btnRefresh.Text = "Refresh"
+        Me.btnRefresh.UseVisualStyleBackColor = True
+        '
+        'dtgGroupe
+        '
+        Me.dtgGroupe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dtgGroupe.Location = New System.Drawing.Point(5, 79)
+        Me.dtgGroupe.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtgGroupe.Name = "dtgGroupe"
+        Me.dtgGroupe.Size = New System.Drawing.Size(496, 358)
+        Me.dtgGroupe.TabIndex = 6
+        '
+        'bnt_AddGroupTable
+        '
+        Me.bnt_AddGroupTable.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.bnt_AddGroupTable.Location = New System.Drawing.Point(8, 28)
+        Me.bnt_AddGroupTable.Margin = New System.Windows.Forms.Padding(4)
+        Me.bnt_AddGroupTable.Name = "bnt_AddGroupTable"
+        Me.bnt_AddGroupTable.Size = New System.Drawing.Size(160, 43)
+        Me.bnt_AddGroupTable.TabIndex = 0
+        Me.bnt_AddGroupTable.Text = "Ajouter un groupe"
+        Me.bnt_AddGroupTable.UseVisualStyleBackColor = True
+        '
+        'tab_EcranProgression
+        '
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue10)
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue9)
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue8)
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue7)
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue6)
+        Me.tab_EcranProgression.Controls.Add(Me.Label20)
+        Me.tab_EcranProgression.Controls.Add(Me.Label19)
+        Me.tab_EcranProgression.Controls.Add(Me.Label18)
+        Me.tab_EcranProgression.Controls.Add(Me.Label17)
+        Me.tab_EcranProgression.Controls.Add(Me.Label16)
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue5)
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue4)
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue3)
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue2)
+        Me.tab_EcranProgression.Controls.Add(Me.Label15)
+        Me.tab_EcranProgression.Controls.Add(Me.Label14)
+        Me.tab_EcranProgression.Controls.Add(Me.Label13)
+        Me.tab_EcranProgression.Controls.Add(Me.Label12)
+        Me.tab_EcranProgression.Controls.Add(Me.Label11)
+        Me.tab_EcranProgression.Controls.Add(Me.progressTrue1)
+        Me.tab_EcranProgression.Location = New System.Drawing.Point(4, 25)
+        Me.tab_EcranProgression.Margin = New System.Windows.Forms.Padding(4)
+        Me.tab_EcranProgression.Name = "tab_EcranProgression"
+        Me.tab_EcranProgression.Padding = New System.Windows.Forms.Padding(4)
+        Me.tab_EcranProgression.Size = New System.Drawing.Size(1039, 600)
+        Me.tab_EcranProgression.TabIndex = 3
+        Me.tab_EcranProgression.Text = "Progression"
+        Me.tab_EcranProgression.UseVisualStyleBackColor = True
+        '
+        'progressTrue10
+        '
+        Me.progressTrue10.Location = New System.Drawing.Point(180, 503)
+        Me.progressTrue10.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue10.Name = "progressTrue10"
+        Me.progressTrue10.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue10.TabIndex = 19
+        '
+        'progressTrue9
+        '
+        Me.progressTrue9.Location = New System.Drawing.Point(180, 453)
+        Me.progressTrue9.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue9.Name = "progressTrue9"
+        Me.progressTrue9.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue9.TabIndex = 18
+        '
+        'progressTrue8
+        '
+        Me.progressTrue8.Location = New System.Drawing.Point(180, 399)
+        Me.progressTrue8.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue8.Name = "progressTrue8"
+        Me.progressTrue8.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue8.TabIndex = 17
+        '
+        'progressTrue7
+        '
+        Me.progressTrue7.Location = New System.Drawing.Point(180, 348)
+        Me.progressTrue7.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue7.Name = "progressTrue7"
+        Me.progressTrue7.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue7.TabIndex = 16
+        '
+        'progressTrue6
+        '
+        Me.progressTrue6.Location = New System.Drawing.Point(180, 293)
+        Me.progressTrue6.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue6.Name = "progressTrue6"
+        Me.progressTrue6.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue6.TabIndex = 15
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(36, 510)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(74, 17)
+        Me.Label20.TabIndex = 14
+        Me.Label20.Text = "Thread 10"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(36, 459)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(66, 17)
+        Me.Label19.TabIndex = 13
+        Me.Label19.Text = "Thread 9"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(36, 406)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(66, 17)
+        Me.Label18.TabIndex = 12
+        Me.Label18.Text = "Thread 8"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(36, 353)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(66, 17)
+        Me.Label17.TabIndex = 11
+        Me.Label17.Text = "Thread 7"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(36, 305)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(66, 17)
+        Me.Label16.TabIndex = 10
+        Me.Label16.Text = "Thread 6"
+        '
+        'progressTrue5
+        '
+        Me.progressTrue5.Location = New System.Drawing.Point(180, 241)
+        Me.progressTrue5.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue5.Name = "progressTrue5"
+        Me.progressTrue5.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue5.TabIndex = 9
+        '
+        'progressTrue4
+        '
+        Me.progressTrue4.Location = New System.Drawing.Point(180, 187)
+        Me.progressTrue4.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue4.Name = "progressTrue4"
+        Me.progressTrue4.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue4.TabIndex = 8
+        '
+        'progressTrue3
+        '
+        Me.progressTrue3.Location = New System.Drawing.Point(180, 132)
+        Me.progressTrue3.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue3.Name = "progressTrue3"
+        Me.progressTrue3.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue3.TabIndex = 7
+        '
+        'progressTrue2
+        '
+        Me.progressTrue2.Location = New System.Drawing.Point(180, 81)
+        Me.progressTrue2.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue2.Name = "progressTrue2"
+        Me.progressTrue2.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue2.TabIndex = 6
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(36, 254)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(66, 17)
+        Me.Label15.TabIndex = 5
+        Me.Label15.Text = "Thread 5"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(36, 199)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(66, 17)
+        Me.Label14.TabIndex = 4
+        Me.Label14.Text = "Thread 4"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(36, 144)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(66, 17)
+        Me.Label13.TabIndex = 3
+        Me.Label13.Text = "Thread 3"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(36, 94)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(66, 17)
+        Me.Label12.TabIndex = 2
+        Me.Label12.Text = "Thread 2"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(36, 41)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(66, 17)
+        Me.Label11.TabIndex = 1
+        Me.Label11.Text = "Thread 1"
+        '
+        'progressTrue1
+        '
+        Me.progressTrue1.Location = New System.Drawing.Point(180, 33)
+        Me.progressTrue1.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressTrue1.Name = "progressTrue1"
+        Me.progressTrue1.Size = New System.Drawing.Size(719, 28)
+        Me.progressTrue1.TabIndex = 0
+        '
+        'tabReportGeneration
+        '
+        Me.tabReportGeneration.Controls.Add(Me.txt_AliasMaster)
+        Me.tabReportGeneration.Controls.Add(Me.pnlDetailReportGeneration)
+        Me.tabReportGeneration.Controls.Add(Me.ddl_TypeReport)
+        Me.tabReportGeneration.Controls.Add(Me.Label9)
+        Me.tabReportGeneration.Controls.Add(Me.btnValidatePrincipalTable)
+        Me.tabReportGeneration.Controls.Add(Me.ddl_Parent)
+        Me.tabReportGeneration.Controls.Add(Me.Label8)
+        Me.tabReportGeneration.Controls.Add(Me.txt_ReportProcName)
+        Me.tabReportGeneration.Controls.Add(Me.lbl_ReportName)
+        Me.tabReportGeneration.Location = New System.Drawing.Point(4, 25)
+        Me.tabReportGeneration.Margin = New System.Windows.Forms.Padding(4)
+        Me.tabReportGeneration.Name = "tabReportGeneration"
+        Me.tabReportGeneration.Padding = New System.Windows.Forms.Padding(4)
+        Me.tabReportGeneration.Size = New System.Drawing.Size(1039, 600)
+        Me.tabReportGeneration.TabIndex = 4
+        Me.tabReportGeneration.Text = "ReportGeneration"
+        Me.tabReportGeneration.UseVisualStyleBackColor = True
+        '
+        'txt_AliasMaster
+        '
+        Me.txt_AliasMaster.Location = New System.Drawing.Point(399, 48)
+        Me.txt_AliasMaster.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_AliasMaster.Name = "txt_AliasMaster"
+        Me.txt_AliasMaster.Size = New System.Drawing.Size(96, 22)
+        Me.txt_AliasMaster.TabIndex = 4
+        '
+        'pnlDetailReportGeneration
+        '
+        Me.pnlDetailReportGeneration.BackColor = System.Drawing.Color.Transparent
+        Me.pnlDetailReportGeneration.Controls.Add(Me.pnlParametreDate)
+        Me.pnlDetailReportGeneration.Controls.Add(Me.GroupBox10)
+        Me.pnlDetailReportGeneration.Controls.Add(Me.btnGenerateReportScript)
+        Me.pnlDetailReportGeneration.Controls.Add(Me.GroupBox9)
+        Me.pnlDetailReportGeneration.Controls.Add(Me.GroupBox8)
+        Me.pnlDetailReportGeneration.Controls.Add(Me.GroupBox7)
+        Me.pnlDetailReportGeneration.Location = New System.Drawing.Point(5, 79)
+        Me.pnlDetailReportGeneration.Margin = New System.Windows.Forms.Padding(4)
+        Me.pnlDetailReportGeneration.Name = "pnlDetailReportGeneration"
+        Me.pnlDetailReportGeneration.Size = New System.Drawing.Size(1023, 498)
+        Me.pnlDetailReportGeneration.TabIndex = 16
+        Me.pnlDetailReportGeneration.Visible = False
+        '
+        'pnlParametreDate
+        '
+        Me.pnlParametreDate.Controls.Add(Me.dtgDateParameter)
+        Me.pnlParametreDate.Controls.Add(Me.btnDateParameterGroupe)
+        Me.pnlParametreDate.Location = New System.Drawing.Point(552, 311)
+        Me.pnlParametreDate.Margin = New System.Windows.Forms.Padding(4)
+        Me.pnlParametreDate.Name = "pnlParametreDate"
+        Me.pnlParametreDate.Padding = New System.Windows.Forms.Padding(4)
+        Me.pnlParametreDate.Size = New System.Drawing.Size(460, 148)
+        Me.pnlParametreDate.TabIndex = 20
+        Me.pnlParametreDate.TabStop = False
+        Me.pnlParametreDate.Text = "Parametres date"
+        '
+        'dtgDateParameter
+        '
+        Me.dtgDateParameter.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dtgDateParameter.Location = New System.Drawing.Point(8, 50)
+        Me.dtgDateParameter.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtgDateParameter.Name = "dtgDateParameter"
+        Me.dtgDateParameter.Size = New System.Drawing.Size(444, 82)
+        Me.dtgDateParameter.TabIndex = 9
+        '
+        'btnDateParameterGroupe
+        '
+        Me.btnDateParameterGroupe.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnDateParameterGroupe.Location = New System.Drawing.Point(11, 20)
+        Me.btnDateParameterGroupe.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnDateParameterGroupe.Name = "btnDateParameterGroupe"
+        Me.btnDateParameterGroupe.Size = New System.Drawing.Size(239, 27)
+        Me.btnDateParameterGroupe.TabIndex = 8
+        Me.btnDateParameterGroupe.Text = "Ajouter groupe de paramètre date"
+        Me.btnDateParameterGroupe.UseVisualStyleBackColor = True
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.Controls.Add(Me.rdgWhereCondition)
+        Me.GroupBox10.Controls.Add(Me.btnAddCondition)
+        Me.GroupBox10.Location = New System.Drawing.Point(396, 11)
+        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox10.Size = New System.Drawing.Size(303, 299)
+        Me.GroupBox10.TabIndex = 19
+        Me.GroupBox10.TabStop = False
+        Me.GroupBox10.Text = "Conditions where"
+        '
+        'rdgWhereCondition
+        '
+        Me.rdgWhereCondition.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.rdgWhereCondition.Location = New System.Drawing.Point(9, 53)
+        Me.rdgWhereCondition.Margin = New System.Windows.Forms.Padding(4)
+        Me.rdgWhereCondition.Name = "rdgWhereCondition"
+        Me.rdgWhereCondition.Size = New System.Drawing.Size(285, 236)
+        Me.rdgWhereCondition.TabIndex = 7
+        '
+        'btnAddCondition
+        '
+        Me.btnAddCondition.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnAddCondition.Location = New System.Drawing.Point(8, 18)
+        Me.btnAddCondition.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnAddCondition.Name = "btnAddCondition"
+        Me.btnAddCondition.Size = New System.Drawing.Size(69, 27)
+        Me.btnAddCondition.TabIndex = 1
+        Me.btnAddCondition.Text = "Ajouter"
+        Me.btnAddCondition.UseVisualStyleBackColor = True
+        '
+        'btnGenerateReportScript
+        '
+        Me.btnGenerateReportScript.Location = New System.Drawing.Point(839, 463)
+        Me.btnGenerateReportScript.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnGenerateReportScript.Name = "btnGenerateReportScript"
+        Me.btnGenerateReportScript.Size = New System.Drawing.Size(173, 27)
+        Me.btnGenerateReportScript.TabIndex = 16
+        Me.btnGenerateReportScript.Text = "Generer Script Rapport"
+        Me.btnGenerateReportScript.UseVisualStyleBackColor = True
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.Controls.Add(Me.treeView_ReportColumn)
+        Me.GroupBox9.Location = New System.Drawing.Point(707, 12)
+        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox9.Size = New System.Drawing.Size(313, 300)
+        Me.GroupBox9.TabIndex = 9
+        Me.GroupBox9.TabStop = False
+        Me.GroupBox9.Text = "Colonnes à retenir"
+        '
+        'treeView_ReportColumn
+        '
+        Me.treeView_ReportColumn.CheckBoxes = True
+        Me.treeView_ReportColumn.Location = New System.Drawing.Point(8, 23)
+        Me.treeView_ReportColumn.Margin = New System.Windows.Forms.Padding(4)
+        Me.treeView_ReportColumn.Name = "treeView_ReportColumn"
+        Me.treeView_ReportColumn.Size = New System.Drawing.Size(296, 269)
+        Me.treeView_ReportColumn.TabIndex = 9
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.Controls.Add(Me.dtgReportParameters)
+        Me.GroupBox8.Controls.Add(Me.btnAddReportParameter)
+        Me.GroupBox8.Location = New System.Drawing.Point(17, 310)
+        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox8.Size = New System.Drawing.Size(527, 148)
+        Me.GroupBox8.TabIndex = 6
+        Me.GroupBox8.TabStop = False
+        Me.GroupBox8.Text = "Parametres"
+        '
+        'dtgReportParameters
+        '
+        Me.dtgReportParameters.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dtgReportParameters.Location = New System.Drawing.Point(9, 49)
+        Me.dtgReportParameters.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtgReportParameters.Name = "dtgReportParameters"
+        Me.dtgReportParameters.Size = New System.Drawing.Size(507, 82)
+        Me.dtgReportParameters.TabIndex = 9
+        '
+        'btnAddReportParameter
+        '
+        Me.btnAddReportParameter.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnAddReportParameter.Location = New System.Drawing.Point(11, 20)
+        Me.btnAddReportParameter.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnAddReportParameter.Name = "btnAddReportParameter"
+        Me.btnAddReportParameter.Size = New System.Drawing.Size(160, 27)
+        Me.btnAddReportParameter.TabIndex = 8
+        Me.btnAddReportParameter.Text = "Ajouter un paramètre"
+        Me.btnAddReportParameter.UseVisualStyleBackColor = True
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.Controls.Add(Me.txtAliasReportTable)
+        Me.GroupBox7.Controls.Add(Me.ddl_OtherReportTable)
+        Me.GroupBox7.Controls.Add(Me.dtgOtherReportTable)
+        Me.GroupBox7.Controls.Add(Me.btnAddNewTable)
+        Me.GroupBox7.Location = New System.Drawing.Point(17, 10)
+        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox7.Size = New System.Drawing.Size(381, 299)
+        Me.GroupBox7.TabIndex = 8
+        Me.GroupBox7.TabStop = False
+        Me.GroupBox7.Text = "Tables additionnelles"
+        '
+        'txtAliasReportTable
+        '
+        Me.txtAliasReportTable.Location = New System.Drawing.Point(195, 17)
+        Me.txtAliasReportTable.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtAliasReportTable.Name = "txtAliasReportTable"
+        Me.txtAliasReportTable.Size = New System.Drawing.Size(96, 22)
+        Me.txtAliasReportTable.TabIndex = 7
+        '
+        'ddl_OtherReportTable
+        '
+        Me.ddl_OtherReportTable.FormattingEnabled = True
+        Me.ddl_OtherReportTable.Location = New System.Drawing.Point(11, 17)
+        Me.ddl_OtherReportTable.Margin = New System.Windows.Forms.Padding(4)
+        Me.ddl_OtherReportTable.Name = "ddl_OtherReportTable"
+        Me.ddl_OtherReportTable.Size = New System.Drawing.Size(175, 24)
+        Me.ddl_OtherReportTable.TabIndex = 6
+        '
+        'dtgOtherReportTable
+        '
+        Me.dtgOtherReportTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dtgOtherReportTable.Location = New System.Drawing.Point(9, 53)
+        Me.dtgOtherReportTable.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtgOtherReportTable.Name = "dtgOtherReportTable"
+        Me.dtgOtherReportTable.Size = New System.Drawing.Size(357, 236)
+        Me.dtgOtherReportTable.TabIndex = 7
+        '
+        'btnAddNewTable
+        '
+        Me.btnAddNewTable.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnAddNewTable.Location = New System.Drawing.Point(299, 15)
+        Me.btnAddNewTable.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnAddNewTable.Name = "btnAddNewTable"
+        Me.btnAddNewTable.Size = New System.Drawing.Size(69, 27)
+        Me.btnAddNewTable.TabIndex = 8
+        Me.btnAddNewTable.Text = "Ajouter"
+        Me.btnAddNewTable.UseVisualStyleBackColor = True
+        '
+        'ddl_TypeReport
+        '
+        Me.ddl_TypeReport.FormattingEnabled = True
+        Me.ddl_TypeReport.Location = New System.Drawing.Point(681, 11)
+        Me.ddl_TypeReport.Margin = New System.Windows.Forms.Padding(4)
+        Me.ddl_TypeReport.Name = "ddl_TypeReport"
+        Me.ddl_TypeReport.Size = New System.Drawing.Size(269, 24)
+        Me.ddl_TypeReport.TabIndex = 2
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(579, 16)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(95, 17)
+        Me.Label9.TabIndex = 17
+        Me.Label9.Text = "Type Report :"
+        '
+        'btnValidatePrincipalTable
+        '
+        Me.btnValidatePrincipalTable.Location = New System.Drawing.Point(523, 48)
+        Me.btnValidatePrincipalTable.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnValidatePrincipalTable.Name = "btnValidatePrincipalTable"
+        Me.btnValidatePrincipalTable.Size = New System.Drawing.Size(100, 28)
+        Me.btnValidatePrincipalTable.TabIndex = 5
+        Me.btnValidatePrincipalTable.Text = "Valider"
+        Me.btnValidatePrincipalTable.UseVisualStyleBackColor = True
+        '
+        'ddl_Parent
+        '
+        Me.ddl_Parent.FormattingEnabled = True
+        Me.ddl_Parent.Location = New System.Drawing.Point(164, 48)
+        Me.ddl_Parent.Margin = New System.Windows.Forms.Padding(4)
+        Me.ddl_Parent.Name = "ddl_Parent"
+        Me.ddl_Parent.Size = New System.Drawing.Size(224, 24)
+        Me.ddl_Parent.TabIndex = 3
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(28, 50)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(117, 17)
+        Me.Label8.TabIndex = 2
+        Me.Label8.Text = "Table principale :"
+        '
+        'txt_ReportProcName
+        '
+        Me.txt_ReportProcName.Location = New System.Drawing.Point(164, 17)
+        Me.txt_ReportProcName.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_ReportProcName.Name = "txt_ReportProcName"
+        Me.txt_ReportProcName.Size = New System.Drawing.Size(332, 22)
+        Me.txt_ReportProcName.TabIndex = 1
+        '
+        'lbl_ReportName
+        '
+        Me.lbl_ReportName.AutoSize = True
+        Me.lbl_ReportName.Location = New System.Drawing.Point(28, 21)
+        Me.lbl_ReportName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_ReportName.Name = "lbl_ReportName"
+        Me.lbl_ReportName.Size = New System.Drawing.Size(114, 17)
+        Me.lbl_ReportName.TabIndex = 0
+        Me.lbl_ReportName.Text = "Nom procédure :"
+        '
+        'BackgroundWorker1
+        '
+        '
+        'progressBar_IMode
+        '
+        Me.progressBar_IMode.Location = New System.Drawing.Point(348, 66)
+        Me.progressBar_IMode.Margin = New System.Windows.Forms.Padding(4)
+        Me.progressBar_IMode.Name = "progressBar_IMode"
+        Me.progressBar_IMode.Size = New System.Drawing.Size(548, 28)
+        Me.progressBar_IMode.TabIndex = 11
+        '
+        'lbl_IMode
+        '
+        Me.lbl_IMode.AutoSize = True
+        Me.lbl_IMode.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_IMode.Location = New System.Drawing.Point(192, 75)
+        Me.lbl_IMode.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_IMode.Name = "lbl_IMode"
+        Me.lbl_IMode.Size = New System.Drawing.Size(136, 20)
+        Me.lbl_IMode.TabIndex = 12
+        Me.lbl_IMode.Text = "IMode is Loading"
+        '
+        'BackgroundWorker2
+        '
+        '
+        'BackgroundWorker1second
+        '
+        '
+        'bckWorkerForServers
+        '
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox6.Controls.Add(Me.rbtnIMode_No)
+        Me.GroupBox6.Controls.Add(Me.rbtnIMode_Yes)
+        Me.GroupBox6.Location = New System.Drawing.Point(16, 54)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox6.Size = New System.Drawing.Size(152, 49)
+        Me.GroupBox6.TabIndex = 13
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "IMode"
+        '
+        'rbtnIMode_No
+        '
+        Me.rbtnIMode_No.AutoSize = True
+        Me.rbtnIMode_No.Checked = True
+        Me.rbtnIMode_No.Location = New System.Drawing.Point(88, 21)
+        Me.rbtnIMode_No.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbtnIMode_No.Name = "rbtnIMode_No"
+        Me.rbtnIMode_No.Size = New System.Drawing.Size(47, 21)
+        Me.rbtnIMode_No.TabIndex = 2
+        Me.rbtnIMode_No.TabStop = True
+        Me.rbtnIMode_No.Text = "No"
+        Me.rbtnIMode_No.UseVisualStyleBackColor = True
+        '
+        'rbtnIMode_Yes
+        '
+        Me.rbtnIMode_Yes.AutoSize = True
+        Me.rbtnIMode_Yes.Location = New System.Drawing.Point(8, 21)
+        Me.rbtnIMode_Yes.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbtnIMode_Yes.Name = "rbtnIMode_Yes"
+        Me.rbtnIMode_Yes.Size = New System.Drawing.Size(53, 21)
+        Me.rbtnIMode_Yes.TabIndex = 1
+        Me.rbtnIMode_Yes.Text = "Yes"
+        Me.rbtnIMode_Yes.UseVisualStyleBackColor = True
+        '
+        'btn_Refresh
+        '
+        Me.btn_Refresh.Location = New System.Drawing.Point(911, 66)
+        Me.btn_Refresh.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_Refresh.Name = "btn_Refresh"
+        Me.btn_Refresh.Size = New System.Drawing.Size(100, 28)
+        Me.btn_Refresh.TabIndex = 14
+        Me.btn_Refresh.Text = "Refresh"
+        Me.btn_Refresh.UseVisualStyleBackColor = True
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FichierToolStripMenuItem, Me.AideToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1057, 28)
+        Me.MenuStrip1.TabIndex = 15
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'FichierToolStripMenuItem
+        '
+        Me.FichierToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouveauProjetToolStripMenuItem, Me.OuvrirProjetToolStripMenuItem})
+        Me.FichierToolStripMenuItem.Name = "FichierToolStripMenuItem"
+        Me.FichierToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
+        Me.FichierToolStripMenuItem.Text = "Fichier"
+        '
+        'NouveauProjetToolStripMenuItem
+        '
+        Me.NouveauProjetToolStripMenuItem.Name = "NouveauProjetToolStripMenuItem"
+        Me.NouveauProjetToolStripMenuItem.Size = New System.Drawing.Size(187, 26)
+        Me.NouveauProjetToolStripMenuItem.Text = "Nouveau projet"
+        '
+        'OuvrirProjetToolStripMenuItem
+        '
+        Me.OuvrirProjetToolStripMenuItem.Name = "OuvrirProjetToolStripMenuItem"
+        Me.OuvrirProjetToolStripMenuItem.Size = New System.Drawing.Size(187, 26)
+        Me.OuvrirProjetToolStripMenuItem.Text = "Ouvrir projet"
+        '
+        'AideToolStripMenuItem
+        '
+        Me.AideToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AProposToolStripMenuItem})
+        Me.AideToolStripMenuItem.Name = "AideToolStripMenuItem"
+        Me.AideToolStripMenuItem.Size = New System.Drawing.Size(52, 24)
+        Me.AideToolStripMenuItem.Text = "Aide"
+        '
+        'AProposToolStripMenuItem
+        '
+        Me.AProposToolStripMenuItem.Name = "AProposToolStripMenuItem"
+        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
+        Me.AProposToolStripMenuItem.Text = "A Propos"
+        '
+        'BackgroundWorkerTrue1
+        '
+        Me.BackgroundWorkerTrue1.WorkerReportsProgress = True
+        '
+        'BackgroundWorkerTrue2
+        '
+        Me.BackgroundWorkerTrue2.WorkerReportsProgress = True
+        '
+        'BackgroundWorkerTrue3
+        '
+        Me.BackgroundWorkerTrue3.WorkerReportsProgress = True
+        '
+        'BackgroundWorkerTrue4
+        '
+        Me.BackgroundWorkerTrue4.WorkerReportsProgress = True
+        '
+        'BackgroundWorkerTrue5
+        '
+        Me.BackgroundWorkerTrue5.WorkerReportsProgress = True
+        '
+        'BackgroundWorkerTrue6
+        '
+        Me.BackgroundWorkerTrue6.WorkerReportsProgress = True
+        '
+        'BackgroundWorkerTrue7
+        '
+        Me.BackgroundWorkerTrue7.WorkerReportsProgress = True
+        '
+        'BackgroundWorkerTrue8
+        '
+        Me.BackgroundWorkerTrue8.WorkerReportsProgress = True
+        '
+        'BackgroundWorkerTrue9
+        '
+        Me.BackgroundWorkerTrue9.WorkerReportsProgress = True
+        '
+        'BackgroundWorkerTrue10
+        '
+        Me.BackgroundWorkerTrue10.WorkerReportsProgress = True
+        '
+        'Generic_dbDataSet
+        '
+        Me.Generic_dbDataSet.DataSetName = "Generic_dbDataSet"
+        Me.Generic_dbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'GenericdbDataSetBindingSource
+        '
+        Me.GenericdbDataSetBindingSource.DataSource = Me.Generic_dbDataSet
+        Me.GenericdbDataSetBindingSource.Position = 0
+        '
+        'CB_ActionStoreProcedure
+        '
+        Me.CB_ActionStoreProcedure.FormattingEnabled = True
+        Me.CB_ActionStoreProcedure.Items.AddRange(New Object() {"CREATE", "ALTER"})
+        Me.CB_ActionStoreProcedure.Location = New System.Drawing.Point(135, 26)
+        Me.CB_ActionStoreProcedure.Margin = New System.Windows.Forms.Padding(4)
+        Me.CB_ActionStoreProcedure.Name = "CB_ActionStoreProcedure"
+        Me.CB_ActionStoreProcedure.Size = New System.Drawing.Size(170, 24)
+        Me.CB_ActionStoreProcedure.TabIndex = 21
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(8, 31)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(120, 17)
+        Me.Label21.TabIndex = 20
+        Me.Label21.Text = "Store Procedure :"
+        '
+        'FormGeneric12
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(1057, 763)
+        Me.Controls.Add(Me.btn_Refresh)
+        Me.Controls.Add(Me.GroupBox6)
+        Me.Controls.Add(Me.lbl_IMode)
+        Me.Controls.Add(Me.progressBar_IMode)
+        Me.Controls.Add(Me.TabControl_Form)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.MaximizeBox = False
+        Me.Name = "FormGeneric12"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "GENERIC 14"
+        Me.TabControl_Form.ResumeLayout(False)
+        Me.TabParametre.ResumeLayout(False)
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        Me.GrpBox_DB.ResumeLayout(False)
+        Me.GrpBox_DB.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        Me.TabBaseDeDonnees.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.TabInterfaceWEB.ResumeLayout(False)
+        Me.GroupBox14.ResumeLayout(False)
+        CType(Me.PictureBox_Formulaire, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox13.ResumeLayout(False)
+        CType(Me.PictureBox_Template, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox11.ResumeLayout(False)
+        Me.GroupBox11.PerformLayout()
+        Me.GroupBox12.ResumeLayout(False)
+        Me.GroupBox12.PerformLayout()
+        Me.TabGroupe.ResumeLayout(False)
+        Me.GroupBox1.ResumeLayout(False)
+        CType(Me.dtgGroupe, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tab_EcranProgression.ResumeLayout(False)
+        Me.tab_EcranProgression.PerformLayout()
+        Me.tabReportGeneration.ResumeLayout(False)
+        Me.tabReportGeneration.PerformLayout()
+        Me.pnlDetailReportGeneration.ResumeLayout(False)
+        Me.pnlParametreDate.ResumeLayout(False)
+        CType(Me.dtgDateParameter, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox10.ResumeLayout(False)
+        CType(Me.rdgWhereCondition, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox9.ResumeLayout(False)
+        Me.GroupBox8.ResumeLayout(False)
+        CType(Me.dtgReportParameters, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox7.ResumeLayout(False)
+        Me.GroupBox7.PerformLayout()
+        CType(Me.dtgOtherReportTable, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox6.ResumeLayout(False)
+        Me.GroupBox6.PerformLayout()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+        CType(Me.Generic_dbDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GenericdbDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Btn_GenererScript As System.Windows.Forms.Button
+    Friend WithEvents TreeView1 As System.Windows.Forms.TreeView
+    Friend WithEvents TreeView2 As System.Windows.Forms.TreeView
+    Friend WithEvents TabControl_Form As System.Windows.Forms.TabControl
+    Friend WithEvents TabBaseDeDonnees As System.Windows.Forms.TabPage
+    Friend WithEvents TabParametre As System.Windows.Forms.TabPage
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
+    Friend WithEvents Btn_FolderBrowserDialog_Script As System.Windows.Forms.Button
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents txt_PathGenerate_ScriptFile As System.Windows.Forms.TextBox
+    Friend WithEvents Btn_AddNameSpace As System.Windows.Forms.Button
+    Friend WithEvents txt_NameSpace As System.Windows.Forms.TextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents ListBox_NameSpace As System.Windows.Forms.ListBox
+    Friend WithEvents Btn_ConnexionServerName As System.Windows.Forms.Button
+    Friend WithEvents Txt_Login As System.Windows.Forms.TextBox
+    Friend WithEvents Txt_Password As System.Windows.Forms.TextBox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents lbl_Database_port As System.Windows.Forms.Label
+    Friend WithEvents txt_ServerName As System.Windows.Forms.TextBox
+    Friend WithEvents lbl_Servername As System.Windows.Forms.Label
+    Friend WithEvents txt_DatabaseName As System.Windows.Forms.TextBox
+    Friend WithEvents FolderBrowserDialog1 As System.Windows.Forms.FolderBrowserDialog
+    Friend WithEvents Btn_GenererParIndex As System.Windows.Forms.Button
+    Friend WithEvents Btn_Remove As System.Windows.Forms.Button
+    Friend WithEvents GrpBox_DB As System.Windows.Forms.GroupBox
+    Friend WithEvents rbtn_Oracle As System.Windows.Forms.RadioButton
+    Friend WithEvents rbtn_MySql As System.Windows.Forms.RadioButton
+    Friend WithEvents rbtn_SqlServer As System.Windows.Forms.RadioButton
+    Friend WithEvents TabGroupe As System.Windows.Forms.TabPage
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents bnt_AddGroupTable As System.Windows.Forms.Button
+    Friend WithEvents txt_FkPrefix As System.Windows.Forms.TextBox
+    Friend WithEvents lbl_FkPrefix As System.Windows.Forms.Label
+    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents rcmb_DatabaseName As System.Windows.Forms.ComboBox
+    Friend WithEvents cmb_server As System.Windows.Forms.ComboBox
+    Friend WithEvents progressBar_IMode As System.Windows.Forms.ProgressBar
+    Friend WithEvents lbl_IMode As System.Windows.Forms.Label
+    Friend WithEvents BackgroundWorker2 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorker1second As System.ComponentModel.BackgroundWorker
+    Friend WithEvents bckWorkerForServers As System.ComponentModel.BackgroundWorker
+    Friend WithEvents rbtn_PostGres As System.Windows.Forms.RadioButton
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents txt_table As System.Windows.Forms.TextBox
+    Friend WithEvents txt_LibraryName As System.Windows.Forms.TextBox
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
+    Friend WithEvents rbtnIMode_No As System.Windows.Forms.RadioButton
+    Friend WithEvents rbtnIMode_Yes As System.Windows.Forms.RadioButton
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents txt_projectName As System.Windows.Forms.TextBox
+    Friend WithEvents btn_Refresh As System.Windows.Forms.Button
+    Friend WithEvents tab_EcranProgression As System.Windows.Forms.TabPage
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents FichierToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NouveauProjetToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents OuvrirProjetToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AideToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AProposToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents dtgGroupe As System.Windows.Forms.DataGridView
+    Friend WithEvents Generic_dbDataSet As GENERIC_14.Generic_dbDataSet
+    Friend WithEvents GenericdbDataSetBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents btnRefresh As System.Windows.Forms.Button
+    Friend WithEvents btnOpenOutput As System.Windows.Forms.Button
+    Friend WithEvents btnGenerateScriptGroup As System.Windows.Forms.Button
+    Friend WithEvents treeViewGroupe As System.Windows.Forms.TreeView
+    Friend WithEvents tabReportGeneration As System.Windows.Forms.TabPage
+    Friend WithEvents lbl_ReportName As System.Windows.Forms.Label
+    Friend WithEvents txt_ReportProcName As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents GroupBox8 As System.Windows.Forms.GroupBox
+    Friend WithEvents ddl_Parent As System.Windows.Forms.ComboBox
+    Friend WithEvents btnGenerateReportScript As System.Windows.Forms.Button
+    Friend WithEvents btnValidatePrincipalTable As System.Windows.Forms.Button
+    Friend WithEvents btnAddReportParameter As System.Windows.Forms.Button
+    Friend WithEvents dtgReportParameters As System.Windows.Forms.DataGridView
+    Friend WithEvents ddl_TypeReport As System.Windows.Forms.ComboBox
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents pnlDetailReportGeneration As System.Windows.Forms.Panel
+    Friend WithEvents GroupBox9 As System.Windows.Forms.GroupBox
+    Friend WithEvents treeView_ReportColumn As System.Windows.Forms.TreeView
+    Friend WithEvents GroupBox7 As System.Windows.Forms.GroupBox
+    Friend WithEvents ddl_OtherReportTable As System.Windows.Forms.ComboBox
+    Friend WithEvents dtgOtherReportTable As System.Windows.Forms.DataGridView
+    Friend WithEvents btnAddNewTable As System.Windows.Forms.Button
+    Friend WithEvents txtAliasReportTable As System.Windows.Forms.TextBox
+    Friend WithEvents txt_AliasMaster As System.Windows.Forms.TextBox
+    Friend WithEvents GroupBox10 As System.Windows.Forms.GroupBox
+    Friend WithEvents rdgWhereCondition As System.Windows.Forms.DataGridView
+    Friend WithEvents btnAddCondition As System.Windows.Forms.Button
+    Friend WithEvents pnlParametreDate As System.Windows.Forms.GroupBox
+    Friend WithEvents dtgDateParameter As System.Windows.Forms.DataGridView
+    Friend WithEvents btnDateParameterGroupe As System.Windows.Forms.Button
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents ddl_PrefixStoredProcedure As System.Windows.Forms.ComboBox
+    Friend WithEvents BackgroundWorkerTrue1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorkerTrue2 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorkerTrue3 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorkerTrue4 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorkerTrue5 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents progressTrue5 As System.Windows.Forms.ProgressBar
+    Friend WithEvents progressTrue4 As System.Windows.Forms.ProgressBar
+    Friend WithEvents progressTrue3 As System.Windows.Forms.ProgressBar
+    Friend WithEvents progressTrue2 As System.Windows.Forms.ProgressBar
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents progressTrue1 As System.Windows.Forms.ProgressBar
+    Friend WithEvents BackgroundWorkerTrue6 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorkerTrue7 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorkerTrue8 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorkerTrue9 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorkerTrue10 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents Label19 As System.Windows.Forms.Label
+    Friend WithEvents Label18 As System.Windows.Forms.Label
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents progressTrue10 As System.Windows.Forms.ProgressBar
+    Friend WithEvents progressTrue9 As System.Windows.Forms.ProgressBar
+    Friend WithEvents progressTrue8 As System.Windows.Forms.ProgressBar
+    Friend WithEvents progressTrue7 As System.Windows.Forms.ProgressBar
+    Friend WithEvents progressTrue6 As System.Windows.Forms.ProgressBar
+    Friend WithEvents TabInterfaceWEB As System.Windows.Forms.TabPage
+    Friend WithEvents GroupBox13 As System.Windows.Forms.GroupBox
+    Friend WithEvents PictureBox_Template As System.Windows.Forms.PictureBox
+    Friend WithEvents GroupBox11 As System.Windows.Forms.GroupBox
+    Friend WithEvents RB_Template_CleanZone As System.Windows.Forms.RadioButton
+    Friend WithEvents RB_Template_AdminLTE_Master As System.Windows.Forms.RadioButton
+    Friend WithEvents GroupBox12 As System.Windows.Forms.GroupBox
+    Friend WithEvents RB_Formulaire_FlowLayout As System.Windows.Forms.RadioButton
+    Friend WithEvents RB_Formulaire_Tableau As System.Windows.Forms.RadioButton
+    Friend WithEvents RB_Template_Inspinia As System.Windows.Forms.RadioButton
+    Friend WithEvents GroupBox14 As System.Windows.Forms.GroupBox
+    Friend WithEvents PictureBox_Formulaire As System.Windows.Forms.PictureBox
+    Friend WithEvents CB_ActionStoreProcedure As System.Windows.Forms.ComboBox
+    Friend WithEvents Label21 As System.Windows.Forms.Label
+
+End Class

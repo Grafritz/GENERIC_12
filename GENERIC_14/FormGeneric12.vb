@@ -1,15 +1,8 @@
-﻿Imports System.Data.SqlClient
-Imports System.Data
-Imports System.Data.OleDb
-Imports Npgsql
+﻿Imports Npgsql
 Imports MySql.Data.MySqlClient
 Imports Microsoft.SqlServer.Management.Smo
 Imports Microsoft.SqlServer.Management.Common
-Imports Microsoft.SqlServer.Management.Smo.Server
-Imports System.Data.OracleClient
 Imports System.IO
-Imports System.Text
-Imports System.Xml
 Imports System.Data.SqlServerCe
 Imports System.ComponentModel
 Imports System.Data.Sql

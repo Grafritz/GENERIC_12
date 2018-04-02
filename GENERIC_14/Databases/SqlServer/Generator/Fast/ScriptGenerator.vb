@@ -30,7 +30,7 @@ Namespace SqlServer.Fast
 
             For Each dt As DataRow In ds.Tables(1).Rows
                 If dt(0).ToString <> Id_table Then
-                    If count < cap - 4 Then
+                    If count < cap Then '- 4
                         Dim champsName As String = dt(1).ToString.Trim
                         Dim longfield As Long = dt(3) / 2
                         If (paramStore = "") Then
@@ -52,8 +52,8 @@ Namespace SqlServer.Fast
                             champStore = "[" & dt(0) & "]"
                             valueStore = "@" & dt(0)
                         Else
-                            paramStore &= Chr(13) & Chr(10) & Chr(9) & "," & "@" & dt(0) & " " & _
-                                IIf(SpecialChar.Contains(dt(1).ToString.Trim), _
+                            paramStore &= Chr(13) & Chr(10) & Chr(9) & "," & "@" & dt(0) & " " &
+                                IIf(SpecialChar.Contains(dt(1).ToString.Trim),
                                     IIf(LevelOneSpecialChar.Contains(dt(1).ToString.Trim) _
                                         , dt(1) & "(" & IIf(longfield <= 0, "MAX", longfield) & ")" _
                                         , dt(1) & "(" & dt(4).ToString.Trim() & "," & dt(5).ToString.Trim() & ")") _
@@ -150,7 +150,7 @@ Namespace SqlServer.Fast
 
 
             For Each dt As DataRow In ds.Tables(1).Rows
-                If count < cap - 4 Then
+                If count < cap Then ' - 4
                     If QuerySet = "" Then
                         If dt(0) <> Id_table Then
                             QuerySet = "[" & dt(0) & "]" & " " & "= " & "@" & dt(0)
@@ -170,7 +170,7 @@ Namespace SqlServer.Fast
                                                                , dt(1))
 
                     Else
-                        paramStore &= Chr(13) & Chr(10) & Chr(9) & "," & "@" & dt(0) & " " & _
+                        paramStore &= Chr(13) & Chr(10) & Chr(9) & "," & "@" & dt(0) & " " &
                             IIf(SpecialChar.Contains(dt(1).ToString.Trim) _
                                 , IIf(LevelOneSpecialChar.Contains(dt(1).ToString.Trim) _
                                       , dt(1) & "(" & IIf(longfield <= 0, "MAX", longfield) & ")" _

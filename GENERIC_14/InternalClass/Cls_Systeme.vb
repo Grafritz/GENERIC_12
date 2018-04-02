@@ -571,44 +571,44 @@ Public Class Cls_Systeme
 #End Region
 
 #Region "Delete"
-    Public Function CleanData()
-        Dim _systeme As Cls_Systeme = Cls_Systeme.getInstance
-        Dim ObjectConnection As SqlCeConnection
-        Dim ObjectCommand As SqlCeCommand
-        Dim commandString As String = "Delete from tbl_ForeignKey"
-        ObjectConnection = New SqlCeConnection(_systeme.getConnectionString)
-        ObjectConnection.Open()
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        commandString = "Delete from tbl_ReportDynamicWhereCondition"
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        commandString = "Delete from tbl_ReportDynamicParameter"
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        commandString = "Delete from tbl_ReportDynamicTable"
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        commandString = "Delete from tbl_ReportDynamic"
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        commandString = "Delete from tbl_GroupTable"
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        commandString = "Delete from tbl_UniqueIndex"
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        commandString = "Delete from tbl_Column"
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        commandString = "Delete from tbl_Table"
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        commandString = "Delete from tbl_Database"
-        ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
-        ObjectCommand.ExecuteNonQuery()
-        ObjectConnection.Close()
-
+    Public Function CleanData() As Boolean
+        'Dim _systeme As Cls_Systeme = Cls_Systeme.getInstance
+        'Dim ObjectConnection As SqlCeConnection
+        'Dim ObjectCommand As SqlCeCommand
+        'Dim commandString As String = "Delete from tbl_ForeignKey"
+        'ObjectConnection = New SqlCeConnection(_systeme.getConnectionString)
+        'ObjectConnection.Open()
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'commandString = "Delete from tbl_ReportDynamicWhereCondition"
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'commandString = "Delete from tbl_ReportDynamicParameter"
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'commandString = "Delete from tbl_ReportDynamicTable"
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'commandString = "Delete from tbl_ReportDynamic"
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'commandString = "Delete from tbl_GroupTable"
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'commandString = "Delete from tbl_UniqueIndex"
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'commandString = "Delete from tbl_Column"
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'commandString = "Delete from tbl_Table"
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'commandString = "Delete from tbl_Database"
+        'ObjectCommand = New SqlCeCommand(commandString, ObjectConnection)
+        'ObjectCommand.ExecuteNonQuery()
+        'ObjectConnection.Close()
+        Return Nothing
     End Function
 #End Region
 

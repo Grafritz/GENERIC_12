@@ -44,3 +44,12 @@ D:\JFD-PROJECT\GENERIC\GENERIC_12_Ver2018\GENERIC_14\obj\Debug\GENERIC_14.wnfrm_
 D:\JFD-PROJECT\GENERIC\GENERIC_12_Ver2018\GENERIC_14\obj\Debug\GENERIC_14.vbproj.GenerateResource.Cache
 D:\JFD-PROJECT\GENERIC\GENERIC_12_Ver2018\GENERIC_14\obj\Debug\GENERIC_14.exe
 D:\JFD-PROJECT\GENERIC\GENERIC_12_Ver2018\GENERIC_14\obj\Debug\GENERIC_14.pdb
+C:\_Travaux\JFD\GENERIC_12_Ver2018\GENERIC_12\GENERIC_14\obj\Debug\GENERIC_14.wnfrm_ReportDynamicParameterDate.resources
+C:\_Travaux\JFD\GENERIC_12_Ver2018\GENERIC_12\GENERIC_14\obj\Debug\GENERIC_14.wnfrm_ReportDynamicWhereCondition.resources
+C:\_Travaux\JFD\GENERIC_12_Ver2018\GENERIC_12\GENERIC_14\obj\Debug\GENERIC_14.wnfrm_ReportDynamicParameter.resources
+C:\_Travaux\JFD\GENERIC_12_Ver2018\GENERIC_12\GENERIC_14\obj\Debug\GENERIC_14.FormGeneric12.resources
+C:\_Travaux\JFD\GENERIC_12_Ver2018\GENERIC_12\GENERIC_14\obj\Debug\GENERIC_14.Resources.resources
+C:\_Travaux\JFD\GENERIC_12_Ver2018\GENERIC_12\GENERIC_14\obj\Debug\GENERIC_14.wnfrm_GroupTable.resources
+C:\_Travaux\JFD\GENERIC_12_Ver2018\GENERIC_12\GENERIC_14\obj\Debug\GENERIC_14.vbproj.GenerateResource.Cache
+C:\_Travaux\JFD\GENERIC_12_Ver2018\GENERIC_12\GENERIC_14\bin\Debug\GENERIC_14.exe.config
+C:\_Travaux\JFD\GENERIC_12_Ver2018\GENERIC_12\GENERIC_14\obj\Debug\GENERIC_14.vbprojResolveAssemblyReference.cache
